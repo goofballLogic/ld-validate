@@ -1,0 +1,10 @@
+const fs = require( "fs" );
+const entries = fs.readdirSync( __dirname );
+const requiredPattern = /^(.*)\.json$/;
+const isJSONfile = filename => requiredPattern.test( filename );
+const nameOf = filename => requiredPattern.exec( filename )[ 1 ];
+const jsonOf = filename => require( __dirname + "/" + filename );
+const nameJSONPairOf = filename => ( { [ nameOf( filename ) ] : jsonOf( filename ) } );
+const addNameJSONPair = ( hash, filename ) => Object.assign( hash, nameJSONPairOf( filename ) );
+const schemas = entries.filter( isJSONfile ).reduce( addNameJSONPair, {} );
+module.exports = schemas;

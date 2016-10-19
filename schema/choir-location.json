@@ -1,0 +1,28 @@
+{
+    
+    "type": {
+        
+        "ldquery": "> @type",
+        "type": "string",
+        "required": false,
+        "range": "Place"
+        
+    },
+    "address": {
+        
+        "ldquery": "> address",
+        "type": "object",
+        "required": true,
+        "schema": "choir-address"
+        
+    },
+    "geo": {
+        
+        "ldquery": "> geo",
+        "type": "object",
+        "required": false,
+        "schema": "choir-geo"
+        
+    }
+    
+}

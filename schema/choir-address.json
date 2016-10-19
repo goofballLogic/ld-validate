@@ -1,0 +1,48 @@
+{
+    
+    "type": {
+        
+        "ldquery": "> @type",
+        "type": "string",
+        "required": false,
+        "range": "PostalAddress"
+        
+    },
+    "country": {
+        
+        "ldquery": "> addressCountry @value",
+        "type": "string",
+        "required": true
+        
+    },
+    "region": {
+        
+        "ldquery": "> addressRegion @value",
+        "type": "string",
+        "required": true
+        
+    },
+    "locality": {
+        
+        "ldquery": "> addressLocality @value",
+        "type": "string",
+        "required": true
+
+    },
+    "streetAddress": {
+      
+        "ldquery": "> streetAddress @value",
+        "type": "string",
+        "min": 1,
+        "max": 3
+        
+    },
+    "postalCode": {
+        
+        "ldquery": "> postalCode @value",
+        "type": "string",
+        "required": false
+        
+    }
+    
+}

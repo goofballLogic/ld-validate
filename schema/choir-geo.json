@@ -1,0 +1,26 @@
+{
+    
+    "type": {
+        
+        "ldquery": "> @type",
+        "type": "string",
+        "required": false,
+        "range": "GeoCoordinates"
+        
+    },
+    "lat": {
+        
+        "ldquery": "latitude @value",
+        "type": "number",
+        "required": true
+        
+    },
+    "lng": {
+        
+        "ldquery": "longitude @value",
+        "type": "number",
+        "required": true
+        
+    }
+    
+}

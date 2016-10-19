@@ -1,0 +1,27 @@
+{
+  "name": "ld-validate",
+  "version": "0.0.1",
+  "description": "A tiny library to validate JSON-LD documents using ld-query",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goofballLogic/ld-validate.git"
+  },
+  "keywords": [
+    "JSON-LD"
+  ],
+  "author": "goofballLogic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goofballLogic/ld-validate/issues"
+  },
+  "homepage": "https://github.com/goofballLogic/ld-validate#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "jsonld": "^0.4.11",
+    "ld-query": "^0.3.0"
+  }
+}

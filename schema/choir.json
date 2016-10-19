@@ -1,0 +1,27 @@
+{
+    
+    "type": {
+        
+        "ldquery": "> @type",
+        "type": "string",
+        "required": false,
+        "range": "Organization"
+        
+    },
+    "name": {
+
+        "ldquery": "> name @value",
+        "type": "string",
+        "required": true
+        
+    },
+    "location": {
+        
+        "ldquery": "> location",
+        "type": "object",
+        "required": true,
+        "schema": "choir-location"
+        
+    }
+
+}

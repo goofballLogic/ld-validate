@@ -1,0 +1,26 @@
+{
+    "@context": { "@vocab": "http://schema.org/" },
+    "@type": "Organization",
+    "name": "porky",
+    "location": {
+        
+        "@type": "Place",
+        "address": {
+            
+            "@type": "PostalAddress",
+            "addressCountry": "United Kingdom",
+            "addressRegion": "County Down",
+            "addressLocality": "Donaghadee",
+            "postalCode": "BT21 0AE"
+            
+        },
+        "geo": {
+            
+            "@type": "GeoCoordinates",
+            "latitude": 54.646155,
+            "longitude": -5.541578
+            
+        }
+        
+    }
+}
