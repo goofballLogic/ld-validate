@@ -1,6 +1,6 @@
 {
   "name": "ld-validate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny library to validate JSON-LD documents using ld-query",
   "main": "src/index.js",
   "scripts": {
