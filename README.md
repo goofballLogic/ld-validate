@@ -28,7 +28,9 @@ A tiny library to validate json-ld documents using ld-query
 ```
 
 $ node ./sample/valid-choir-validate.js 
+```
 Validated ok
+```
 
 ### Failing
 
@@ -57,5 +59,6 @@ Validated ok
 ```
 
 $ node ./sample/invalid-choir-validate.js                                                                 
+```
 [Error: Type of "country" is incorrect. Query was '> addressCountry @value'. Expected: string. Actual: number]
-
+```
