@@ -4,7 +4,7 @@
   "description": "A tiny library to validate JSON-LD documents using ld-query",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/cucumberjs --snippet-interface promise"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
     "debug": "^2.2.0",
     "jsonld": "^0.4.11",
     "ld-query": "^0.3.0"
+  },
+  "devDependencies": {
+    "cucumber": "^1.3.1",
+    "should": "^11.1.1"
   }
 }

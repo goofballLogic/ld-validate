@@ -19,7 +19,8 @@
         
         "ldquery": "> location",
         "type": "object",
-        "required": true,
+        "min": 1,
+        "max": 5,
         "schema": "choir-location"
         
     }

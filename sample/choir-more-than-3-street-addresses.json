@@ -8,10 +8,11 @@
         "address": {
             
             "@type": "PostalAddress",
-            "addressCountry": 42,
+            "streetAddress": [ "17 Parade", "Donaghadee", "United Kingdom", "BT21 0AB" ],
+            "addressCountry": "United Kingdom",
             "addressRegion": "County Down",
             "addressLocality": "Donaghadee",
-            "postalCode": "BT21 0AE"
+            "postalCode": "BT21 0AB"
             
         },
         "geo": {
